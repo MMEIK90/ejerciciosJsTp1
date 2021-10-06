@@ -10,73 +10,73 @@ do{
         
     switch (resultado){
         case 0: 
-           document.write( " el valor en letra del numero de DNI ingresado es: T ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: T ");
            break;
         case 1: 
-           document.write( "<br>" +" el valor en letra del numero de DNI ingresado es: R ");
+           document.write(  "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: R ");
            break;
         case 2:        
-           document.write( "<br>" +" el valor en letra del numero de DNI ingresado es: W ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: W ");
            break;
         case 3:        
-           document.write("<br>" +" el valor en letra del numero de DNI ingresado es: A ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: A ");
            break;
         case 4:
-           document.write("<br>" +" el valor en letra del numero de DNI ingresado es: G ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  G ");
            break;
         case 5:        
-           document.write("<br>" +" el valor en letra del numero de DNI ingresado es: M ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: M ");
            break;
         case 6:        
-           document.write("<br>" +" el valor en letra del numero de DNI ingresado es: Y ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: Y ");
            break;
         case 7:        
-           document.write( "<br>" +" el valor en letra del numero de DNI ingresado es: F ");
+           document.write(  "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: F ");
            break;
         case 8:       
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: P ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: P ");
            break;
         case 9:        
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: D ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  D ");
            break;
         case 10:
-           document.write( "<br>" +" el valor en letra del numero de DNI ingresado es: X ");
+           document.write(  "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  X ");
            break;
         case 11:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: B ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: B ");
            break;
         case 12:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: N ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: N ");
            break;
         case 13:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: J ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: J ");
            break;
         case 14:
-           document.write("<br>" +" el valor en letra del numero de DNI ingresado es: Z ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  Z ");
            break;
         case 15:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: S ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  S ");
            break;
         case 16:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: Q ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: Q ");
            break;
         case 17:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: V ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  V ");
            break;
         case 18:
-           document.write( "<br>" +" el valor en letra del numero de DNI ingresado es: H ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  H ");
            break;
         case 19:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: L ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  L ");
            break;
         case 20:
-           document.write( "<br>" +" el valor en letra del numero de DNI ingresado es: C ");
+           document.write(  "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es: C ");
            break;
         case 21:
-           document.write("<br>" + " el valor en letra del numero de DNI ingresado es: K ");
+           document.write( "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  K ");
            break;
         case 22:
-           document.write( "<br>" +" el valor en letra del numero de DNI ingresado es: E ");
+           document.write(  "<br>"+"el  dni ingresado es: "+ numero + ", y su valor en letra  es:  E ");
            break;
         default :
             if (numero != Number(numero)    ) {
