@@ -26,8 +26,4 @@ let ciudades = [];
          ciudades.splice(1,0,'Barcelona');
          document.write ("<br>" + ciudades[ciudades.length-1]);
          document.write ("<br>" + ciudades[1]);
-         
-
-   
-         
 

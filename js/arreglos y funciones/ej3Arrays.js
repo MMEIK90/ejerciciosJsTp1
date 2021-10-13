@@ -3,15 +3,15 @@ Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la funci
 para obtener números aleatorios entre 1 y 6 para cada uno de los lanzamientos de los dados.
  Sumar el resultado de lanzar dos dados y anotar en un array el número de apariciones de dicha suma, 
  repitiendo 50 veces esta operación. */
-     
+
+    
      let i;
-     for (i = 0; i < 50; i++) {
-      x = Math.floor(Math.random()*(6)+1);
-       y = Math.floor(Math.random()*(6)+1);
-       sum = x + y;
-       document.write("<br>" + sum);
-       
+     let conjuntoSuma = [];
+     for (i = 1; i < 51; i++) {
+      d1 = Math.floor(Math.random()*(6)+1);
+       d2 = Math.floor(Math.random()*(6)+1);
+       suma = d1 + d2;
+       conjuntoSuma.push(suma);
+       document.write("<br>" + i + "-" + " la suma es: "  + suma);     
    }
       
-   
-   
