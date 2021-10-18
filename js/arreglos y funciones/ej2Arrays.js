@@ -13,9 +13,9 @@ let i = 0
 let ciudades = []; 
 
         do {
-            let ciudad = [prompt("ingrese una ciudad")];
+            let ciudad = [prompt("ingrese una ciudad")];            
             document.write(ciudad + ",");
-            ciudades.push(ciudad);  
+            ciudades.push(ciudad);              
          } while (confirm("Desea seguir?") );
          document.write ("<br>" + ciudades.length);
          document.write ("<br>" + ciudades[0]);
