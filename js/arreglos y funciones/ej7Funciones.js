@@ -8,10 +8,7 @@ la creación de la tabla debe ser realizada con una función
 	for(i = 1; i <= 10; i++){
 		
 		document.write("<br>" + numero + " x " + i + " = " + numero * i);
-		
-	}
- }
-
-let numero = parseInt(prompt("Ingrese un numero del 1 al 10"));
+			}
+ }let numero = parseInt(prompt("Ingrese un numero del 1 al 10"));
 document.write(tabladeMultiplicar (numero));
 
